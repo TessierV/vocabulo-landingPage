@@ -16,7 +16,7 @@
     $: cards = [
         {
             id: 1,
-            title: $isQuizMode ? "Personnalisé" : "Personnalisé (Enfant)",
+            title: $isQuizMode ? "Personnalisé" : "Aide à la capture",
             subtitle: $isQuizMode
                 ? "Apprentissage personnalisé"
                 : "Apprentissage personnalisé (Enfant)",
@@ -35,13 +35,13 @@
         },
         {
             id: 2,
-            title: $isQuizMode ? "Recommandations" : "Recommandations (Enfant)",
+            title: $isQuizMode ? "Recommandations" : "Utilisation simple",
             subtitle: $isQuizMode
                 ? "Recommandations contextuelles"
-                : "Recommandations contextuelles (Enfant)",
+                : "Capture du texte",
             description: $isQuizMode
                 ? "Les questions proposées changent selon le moment de la journée, la semaine, et la saison."
-                : "Les mots proposés changent selon le moment de la journée, la semaine, et la saison.",
+                : "Un cadre guide l'enfant pour l'utilisation de l'appareil photo sur le texte du livre",
             color: "green",
             icon: `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5Z" stroke="#FFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -50,7 +50,7 @@
         },
         {
             id: 3,
-            title: $isQuizMode ? "Équilibre" : "Équilibre (Enfant)",
+            title: $isQuizMode ? "Équilibre" : "Catégories Grammaticales",
             subtitle: $isQuizMode
                 ? "Équilibre de difficulté"
                 : "Équilibre de difficulté (Enfant)",
@@ -68,19 +68,19 @@
         },
         {
             id: 4,
-            title: $isQuizMode ? "Révision" : "Révision (Enfant)",
+            title: $isQuizMode ? "Révision" : "Personnalisation",
             subtitle: $isQuizMode
                 ? "Questions nouvelles et révision"
-                : "Questions nouvelles et révision (Enfant)",
+                : "Chacun son dictionnaire",
             description: $isQuizMode
                 ? "Le quiz introduit des questions nouvelles tout en renforçant celles que tu as déjà apprises."
-                : "Le quiz introduit des questions nouvelles tout en renforçant celles que tu as déjà apprises. (Enfant)",
+                : "Chaque enfant peut stocker les cartes des mots qu'il a déjà rencontré dans son dictionnaire pour y revenir plus tard.",
             color: "green",
             icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>`,
         },
         {
             id: 5,
-            title: $isQuizMode ? "Feedback" : "Feedback (Enfant)",
+            title: $isQuizMode ? "Feedback" : "Accessibilité",
             subtitle: $isQuizMode
                 ? "Feedback en temps réel"
                 : "Feedback en temps réel (Enfant)",
@@ -98,13 +98,13 @@
         },
         {
             id: 6,
-            title: $isQuizMode ? "Optimisation" : "Optimisation (Enfant)",
+            title: $isQuizMode ? "Optimisation" : "Analyse grammaticale",
             subtitle: $isQuizMode
                 ? "Optimisation continue"
-                : "Optimisation continue (Enfant)",
+                : "Connaissance linguistique",
             description: $isQuizMode
                 ? "Le système est régulièrement amélioré pour mieux suivre tes progrès dans les quiz et te faire progresser."
-                : "Le système est régulièrement amélioré pour mieux te suivre et te faire progresser dans l'apprentissage des mots.",
+                : "L'implémentation des informations grammaticale encourage l'enfant à percer la conception des phrases en français écrit.",
             color: "green",
             icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>`,
         },
@@ -121,13 +121,13 @@
 
     $: boxTitle1 = $isQuizMode
         ? "Découvrez le Quiz Hybride,"
-        : "Je suis le premier titre pour Enfant";
+        : "Reconnaissance de caractères";
     $: boxTitle2 = $isQuizMode
         ? "conçu pour enrichir votre vocabulaire."
-        : "Je suis le second titre pour Enfant";
+        : "Traitement Automatique du Langage Naturel";
     $: boxDescription = $isQuizMode
         ? "Le Quiz Hybride utilise des techniques d'intelligence artificielle pour personnaliser chaque session. Le système ajuste les questions ou mots en fonction de votre progression. Grâce à des recommandations contextuelles et un équilibre de difficulté, vous êtes constamment stimulé sans être surchargé. Le quiz introduit de nouveaux contenus tout en renforçant ceux déjà appris, et votre feedback améliore en continu les recommandations futures."
-        : "Lorem ipsum Enfant dolor sit amet consectetur adipisicing elit. Eaque velit numquam minus dolorum voluptatum sequi inventore quo ullam aut pariatur saepe laboriosam tenetur nemo, doloribus illo beatae molestias eius, voluptates soluta incidunt! Aut deserunt fuga necessitatibus maiores ipsum nihil dolore.";
+        : "Après avoir identifié les caractères dans l'image et reconstitué les mots, le modèle va analyser chacun pour déterminer la meilleure définition présente dans le dictionnaire de signes, tentant d'éviter les soucis de polysémie du français.";
 
     // Function to handle interaction start (mouse over or focus)
     function handleInteractionStart(event) {
