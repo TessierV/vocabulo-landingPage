@@ -21,7 +21,7 @@
 
     $: boxDescription = $isQuizMode
         ? "Découvrez les fonctionnalités qui rendent notre application incontournable. Grâce à des outils simples et intuitifs, vous pouvez apprendre à votre rythme, découvrir de nouveaux mots, et améliorer votre vocabulaire. Chaque fonctionnalité est pensée pour vous offrir une expérience pratique, adaptée à vos besoins et facile à utiliser au quotidien."
-        : "Lorem ipsum Enfant dolor sit amet consectetur adipisicing elit. Eaque velit numquam minus dolorum voluptatum sequi inventore quo ullam aut pariatur saepe laboriosam tenetur nemo, doloribus illo beatae molestias eius, voluptates soluta incidunt! Aut deserunt fuga necessitatibus maiores ipsum nihil dolore.";
+        : "Découvrez les fonctionnalités qui vont rendre la littérature jeunesse accessible et ouvrir un monde d'histoires aux enfants sourds. Grâce à utilisation simple et intuitive, les textes deviennent augmentés de leur signe en LSF, leur définition. Sans compter la mise en avant des catégories et fonctions grammaticales. N'ayez plus peur du français écrit.";
 
     // Reactive background images
     $: bgImage1 = $isQuizMode ? "" : "";
@@ -83,12 +83,12 @@
 
     // Title
     $: title1 = $isQuizMode ? "Clavier LSF" : "Clavier LSF (enfant)";
-    $: title2 = $isQuizMode ? "Dictionnaire" : "Dictionnaire (enfant)";
+    $: title2 = $isQuizMode ? "Dictionnaire" : "Dictionnaire personnalisé";
     $: title3 = $isQuizMode
         ? "Thème clair et foncé"
         : "Thème clair et foncé (enfant)";
-    $: title5 = $isQuizMode ? "Quiz" : "Quiz (enfant)";
-    $: title6 = $isQuizMode ? "Quiz Hybride" : "Quiz Hybride(enfant)";
+    $: title5 = $isQuizMode ? "Quiz" : "Recherche";
+    $: title6 = $isQuizMode ? "Quiz Hybride" : "Grammaire";
 
     // Descriptions
     $: desc1 = $isQuizMode
@@ -96,19 +96,19 @@
         : "Profitez de notre clavier interactif qui vous permet de basculer facilement entre un clavier traditionnel et un clavier en pictogrammes de lettres LSF. Idéal pour apprendre et pratiquer l'alphabet en langue des signes française à votre rythme !";
     $: desc2 = $isQuizMode
         ? "Découvrez notre dictionnaire enrichi avec des vidéos pour chaque mot et définition. Consultez non seulement la signification des mots, mais aussi leur interprétation en vidéo pour une expérience d'apprentissage interactive et visuelle !"
-        : "Description du dictionnaire (enfant)";
+        : "Stockez dans votre dictionnaire, les mots que vous avez déjà rencontré. Accédez à leur définition, leur signe, leur catégorie grammaticale en un clin d'oeil.";
     $: desc3 = $isQuizMode
         ? "Personnalisez votre expérience en passant facilement du thème clair au thème sombre dans les paramètres. Choisissez l'option qui vous convient le mieux pour une lecture confortable à tout moment de la journée !"
-        : "Description des thèmes (enfant)";
+        : "Personnalisez votre expérience en passant facilement du thème clair au thème sombre dans les paramètres. Choisissez l'option qui vous convient le mieux.";
     $: desc4 = $isQuizMode
         ? "Basculer entre le mode Quiz et le mode Enfant"
         : "Basculer entre le mode Quiz et le mode Enfant";
     $: desc5 = $isQuizMode
         ? "Notre quiz vous permet de tester vos connaissances avec des questions aléatoires ou triées par thèmes et catégories. Découvrez de nouveaux mots avec des supports visuels tels que des vidéos ou des images, disponibles pour enrichir votre apprentissage !"
-        : "Description du quiz (enfant)";
+        : "Recherchez par catégorie grammaticale, ou en tapant les lettres ou leur signe avec le clavier en LSF.";
     $: desc6 = $isQuizMode
         ? "Le Quiz Hybride utilise le machine learning pour faciliter la maîtrise du vocabulaire français, spécialement conçu pour les personnes sourdes. Avec des quiz interactifs quotidiens et thématiques, vous pratiquez et découvrez de nouveaux mots adaptés à votre niveau, pour un apprentissage toujours personnalisé."
-        : "Description du quiz Hybride(enfant)";
+        : "En un coup d'oeil, identifiez la catégorie grammaticale d'un mot.";
 
     function toggleMode() {
         isQuizMode.update((mode) => !mode);
