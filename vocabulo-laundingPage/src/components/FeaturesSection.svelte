@@ -16,13 +16,13 @@
     $: cards = [
         {
             id: 1,
-            title: $isQuizMode ? "Personnalisé" : "Aide à la capture",
+            title: $isQuizMode ? "Personnalisé" : "Appareil photo",
             subtitle: $isQuizMode
                 ? "Apprentissage personnalisé"
-                : "Apprentissage personnalisé (Enfant)",
+                : "Appareil photo intégré",
             description: $isQuizMode
                 ? "Le système analyse ton parcours d'apprentissage pour adapter les questions à ton niveau."
-                : "Le système analyse ton parcours d'apprentissage pour adapter les mots à ton niveau.",
+                : "Utilisation de l'appreil photo directement dans l'application, en mode portrait ou paysage.",
             color: "red",
             bgImage: $isQuizMode
                 ? "assets/features/phone1.png"
@@ -38,7 +38,7 @@
             title: $isQuizMode ? "Recommandations" : "Utilisation simple",
             subtitle: $isQuizMode
                 ? "Recommandations contextuelles"
-                : "Capture du texte",
+                : "Capture du texte guidée",
             description: $isQuizMode
                 ? "Les questions proposées changent selon le moment de la journée, la semaine, et la saison."
                 : "Un cadre guide l'enfant pour l'utilisation de l'appareil photo sur le texte du livre",
@@ -53,10 +53,10 @@
             title: $isQuizMode ? "Équilibre" : "Catégories Grammaticales",
             subtitle: $isQuizMode
                 ? "Équilibre de difficulté"
-                : "Équilibre de difficulté (Enfant)",
+                : "Code couleur",
             description: $isQuizMode
                 ? "Chaque question est choisie pour être suffisamment stimulante, sans être trop difficile."
-                : "Chaque mot est choisi pour être suffisamment stimulant, sans être trop difficile.",
+                : "Chaque catégorie grammaticale est associée avec une couleur, la légende est disponible d'un simple clic.",
             color: "red",
             bgImage: $isQuizMode
                 ? "assets/features/phone2.png"
@@ -83,10 +83,10 @@
             title: $isQuizMode ? "Feedback" : "Accessibilité",
             subtitle: $isQuizMode
                 ? "Feedback en temps réel"
-                : "Feedback en temps réel (Enfant)",
+                : "Clavier en LSF",
             description: $isQuizMode
                 ? "Tes retours aident à affiner les recommandations futures pour les questions."
-                : "Tes retours aident à affiner les recommandations futures pour les mots.",
+                : "Possiblité de chercher les mots directement en utilisant un clavier en LSF.",
             color: "red",
             bgImage: $isQuizMode
                 ? "assets/features/phone3.png"
