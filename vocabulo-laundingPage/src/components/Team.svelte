@@ -17,12 +17,12 @@
             surname: "Marianne",
             role: "Machine Learning",
             description:
-                "Experte en apprentissage automatique, Marianne apporte des solutions innovantes à l'équipe.",
+                "Experte en apprentissage automatique et pédagogie, Marianne apporte des solutions innovantes à l'équipe.",
             photo: "/assets/team/Marianne.png",
             linkedin: "https://www.linkedin.com/in/mariannearrue/",
             github: "https://github.com/MarianneHolbie",
-            email: "mailto:marianne.arrue@holbertonstudents.com", //missing good one
-            portfolio: "https://mariannearrue.com", //missing good one
+            email: "mailto:arrue.marianne@gmail.com",
+            portfolio: "https://mariannearrue.vercel.app/",
         },
         {
             id: 2,
