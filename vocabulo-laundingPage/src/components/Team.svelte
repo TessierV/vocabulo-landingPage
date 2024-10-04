@@ -28,9 +28,9 @@
             id: 2,
             name: "Tessier",
             surname: "Vanessa",
-            role: "Développeur",
+            role: "Développeuse mobile",
             description:
-                "Développeuse full-stack spécialisée en React et Node.js.",
+                "Spécialisée en développement full-stack et front-end pour le web et le mobile. A conçu l'intégralité de l'application Vocabul'o Quiz ainsi que son UI/UX.",
             photo: "/assets/team/Vanessa.png",
             linkedin: "https://linkedin.com/in/vanessa-tessier",
             github: "https://github.com/TessierV",
@@ -41,9 +41,8 @@
             id: 3,
             name: "Assenat",
             surname: "Amandine",
-            role: "Développeur",
-            description:
-                "Amandine assure la livraison des projets dans les délais et le budget impartis.",
+            role: "Développeuse mobile",
+            description: "Spécialisée en développement full-stack et front-end pour le web et le mobile. A conçu l'intégralité de l'application Vocabul'o Kid ainsi que son UI/UX.",
             photo: "/assets/team/Amandine.png",
             linkedin:
                 "https://www.linkedin.com/in/amandine-assenat-designer-graphique-developpeuse-front-end/",
