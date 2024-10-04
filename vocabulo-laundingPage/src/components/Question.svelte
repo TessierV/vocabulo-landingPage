@@ -4,11 +4,11 @@
 
     // Array of question objects
     export let questions = [
-        { id: 1, title: "Question 1", answer: "Réponse à la question 1", isOpen: false },
-        { id: 2, title: "Question 2", answer: "Réponse à la question 2", isOpen: false },
-        { id: 3, title: "Question 3", answer: "Réponse à la question 3", isOpen: false },
-        { id: 4, title: "Question 4", answer: "Réponse à la question 4", isOpen: false },
-        { id: 5, title: "Question 5", answer: "Réponse à la question 5", isOpen: false },
+        { id: 1, title: "Pourquoi deux applications ?", answer: "Vocabul'o Kid et Vocabul'o Quiz ne visent pas le même public. Vocabul'o Kid s'adresse à un public plus jeune, pour l'aider à apprivoiser la littérature jeunesse en facilitant la compréhension du texte par un mapping de signe en LSF ainsi que des informations grammaticales. Vocabul'o Quiz s'adresse à un public d'âge plus étendu, souhaitant améliorer sa connaissance en vocabulaire français écrit.", isOpen: false },
+        { id: 2, title: "Quand pourra-t-on utiliser Vocabul'o Quiz et Vocabul'o Kid ?", answer: "Pour le moment, les deux applications sont en phase de test et nécessite des discussions entre les partenaires pour leur éventuel déploiement", isOpen: false },
+        { id: 3, title: "Mes données personnelles et celles de mon enfant sont-elles protégées ?", answer: "Absolument. Nous prenons très au sérieux la protection des données, en particulier celles des enfants. Toutes les informations sont cryptées et stockées de manière sécurisée, conformément aux réglementations en vigueur.", isOpen: false },
+        { id: 4, title: "D'où proviennent les vidéos en LSF ?", answer: "Toutes les vidéos en LSF et les définitions des mots proviennent du dictionnaire ELIX dépoloyé par Signes de Sens", isOpen: false },
+
     ];
 
     // Function to toggle the answer visibility
