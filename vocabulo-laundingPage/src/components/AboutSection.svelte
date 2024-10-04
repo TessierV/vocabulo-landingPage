@@ -21,11 +21,11 @@
 
     $: boxTitle1 = $isQuizMode
         ? "La première application de quiz"
-        : "Je suis le premier titre pour Enfant";
+        : "Rendre les livres jeunesses";
 
     $: boxTitle2 = $isQuizMode
         ? "pour les personnes sourdes"
-        : "Je suis le second titre pour Enfant";
+        : "accessibles aux enfants sourds";
 
     $: boxSubtitle = $isQuizMode ? "Vocabul'o Quiz" : "Vocabul'o Kid";
 
@@ -35,11 +35,11 @@
 
     $: boxDescription = $isQuizMode
         ? "L'application est conçue spécifiquement pour les personnes sourdes. Vocabul’o vous permet de renforcer votre maîtrise du français. Que vous soyez débutant ou avancé, découvrez des mots nouveaux et révisez ceux déjà appris grâce à un parcours personnalisé."
-        : "Lorem ipsum Enfant dolor sit amet consectetur adipisicing elit. Eaque velit numquam minus dolorum voluptatum sequi inventore quo ullam aut pariatur saepe laboriosam tenetur nemo, doloribus illo beatae molestias eius, voluptates soluta incidunt! Aut deserunt fuga necessitatibus maiores ipsum nihil dolore.";
+        : "L'application permet de scanner le texte de livres pour enfants, et de mettre en évidence, dans les phrases, les mots identifiés avec leur signe ou leur définition en LSF. Vous pourrez ensuite, ajouter les mots découverts à votre dictionnaire personalisé. Un code couleur vous donne accés aux fonctions grammaticales des mots.";
 
     $: boxText = $isQuizMode
         ? "concue pour enrichir votre vocabulaire avec 1991 questions uniques."
-        : "Je suis un texte pour le mode Enfant";
+        : "Reconnaissance optique de caractères.";
 
     // Set up animations when component mounts
     onMount(() => {
@@ -132,7 +132,7 @@
     style="border-radius: 42px"
 >
     <div class="w-full sm:w-5/6 text-center">
-        <h2 class="text-4xl font-bold text-center mb-12">A propos</h2>
+        <h2 class="text-4xl font-bold text-center mb-12">À propos</h2>
 
         <!-- First text block with background image -->
         <div
