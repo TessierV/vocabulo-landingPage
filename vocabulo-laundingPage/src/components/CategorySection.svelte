@@ -18,7 +18,7 @@
         title: "Vocabul'o Quiz",
         column1: "Quiz personnalisé",
         column2:
-            "est une plateforme d'apprentissage qui utilise des répétitions espacées et une reconnaissance personnalisée des mots pour favoriser la progression de l'utilisateur.",
+            "est une plateforme d'apprentissage qui combine la méthode des répétitions espacées et un système de recommendation personnalisée des mots pour favoriser la progression de l'utilisateur.",
         column3: "Divers thèmes",
     };
 
