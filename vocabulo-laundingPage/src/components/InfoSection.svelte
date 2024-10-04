@@ -77,11 +77,13 @@
                 L'Histoire de Vocabul'o
             </h2>
             <p class="mb-12 w-full sm:w-2/3 px-8">
-                Vocabul'o est né d'une prise de conscience profonde des défis
-                rencontrés par la communauté sourde face à la langue écrite.
-                Face à ces enjeux, nous avons créé une solution basée sur l'IA
-                pour combler ce fossé linguistique, à travers deux applications
-                : Vocabul'o Quiz et Vocabul'o Junior.
+                Vocabul'o est né d'une prise de conscience profonde des difficultés
+                rencontrées par la communauté sourde face à la langue écrite.
+                Conscients de cet enjeu et du peu d'outils dédiés, nous avons créé une solution
+                innovante, basée sur l'intelligence artificielle,
+                pour combler ce fossé linguistique. À travers nos deux applications -
+                 Vocabul'o Quiz et Vocabul'o Kid -, nous espérons transmettre la passion des histoires et
+                 de la langue écrite à un public qui en est trop souvent éloigné.
             </p>
             <!-- Sub-columns with statistics -->
             <div
@@ -94,7 +96,7 @@
                 >
                     <h3 class="text-4xl font-bold uppercase">80%</h3>
                     <p class="mt-2" style="font-size: 12px">
-                        Des adultes sourds ont des difficultés en lecture.
+                        Des adultes sourds ont des difficultés avec la lecture.
                     </p>
                 </div>
                 <div
