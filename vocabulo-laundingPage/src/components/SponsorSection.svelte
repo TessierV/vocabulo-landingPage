@@ -47,7 +47,7 @@
 </script>
 
 <section class="sponsor-section overflow-hidden py-20">
-    <h2 class="text-3xl font-bold text-center mb-8">Nos Sponsors</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Nos Soutiens et Sources</h2>
     <div class="sponsor-wrapper overflow-hidden">
         <!-- Bind this element to the sponsorContainer variable -->
         <div
