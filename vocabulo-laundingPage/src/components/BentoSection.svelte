@@ -86,7 +86,7 @@
     $: title2 = $isQuizMode ? "Dictionnaire" : "Dictionnaire personnalisé";
     $: title3 = $isQuizMode
         ? "Thème clair et foncé"
-        : "Thème clair et foncé (enfant)";
+        : "Thème clair et foncé (prochainement)";
     $: title5 = $isQuizMode ? "Quiz" : "Recherche";
     $: title6 = $isQuizMode ? "Quiz Hybride" : "Grammaire";
 
