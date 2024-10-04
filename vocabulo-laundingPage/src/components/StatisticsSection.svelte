@@ -14,16 +14,16 @@
     $: sectionTitle = $isQuizMode
         ? "Statistiques Quiz"
         : "Statistiques Vocabul'o Kid";
-    $: colNumb1 = $isQuizMode ? "5" : "unknow";
-    $: colText1 = $isQuizMode ? "Quiz" : "unknow";
+    $: colNumb1 = $isQuizMode ? "5" : "+500";
+    $: colText1 = $isQuizMode ? "Quiz" : "Livres analysés";
     $: colNumb2 = $isQuizMode ? "34 000" : "34 000";
     $: colText2 = $isQuizMode ? "Définitions LSF" : "Définitions LSF";
     $: colNumb3 = $isQuizMode ? "27 076" : "27 076";
     $: colText3 = $isQuizMode ? "Signes" : "Signes";
-    $: colNumb4 = $isQuizMode ? "14" : "unknow";
-    $: colText4 = $isQuizMode ? "Catégories" : "unknow";
-    $: colNumb5 = $isQuizMode ? "71" : "unknow";
-    $: colText5 = $isQuizMode ? "Sous-catégories" : "Groupes grammatical";
+    $: colNumb4 = $isQuizMode ? "14" : "84 %";
+    $: colText4 = $isQuizMode ? "Catégories" : "Précision OCR";
+    $: colNumb5 = $isQuizMode ? "71" : "10";
+    $: colText5 = $isQuizMode ? "Sous-catégories" : "Catégories grammatical";
 
     // Lifecycle function to set up animations when the component is mounted
     onMount(() => {
