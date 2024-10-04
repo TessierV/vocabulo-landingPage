@@ -94,12 +94,12 @@
             class="w-full lg:w-1/2 p-8 flex flex-col justify-center"
         >
             <h1 bind:this={title} class="text-4xl font-bold">
-                Bienvenue à Vocabul'o
+                Bienvenue dans l'univers Vocabul'o
             </h1>
             <p bind:this={description} class="mt-4 mb-8">
-                Explorez une solution innovante qui vise à améliorer la maîtrise
-                du français écrit pour les personnes sourdes, en s'appuyant sur
-                une technologie d'intelligence artificielle.
+                Explorez des solutions innovantes conçues pour améliorer la maîtrise
+                du français écrit des personnes sourdes, en s'appuyant sur
+                des technologies d'intelligence artificielle.
             </p>
         </div>
         <!-- Phone Image Column -->
